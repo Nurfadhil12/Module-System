@@ -18,7 +18,7 @@ function MiniTable() {
 
   return (
     <div>
-      <Table striped bordered hover>
+      <Table bordered hover striped variant='dark'>
       <thead>
         <tr>
         {collums}
